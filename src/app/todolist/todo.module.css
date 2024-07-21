@@ -1,0 +1,80 @@
+
+.body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.titlediv{
+border: 1px solid yellow;
+border-radius: 5px;
+padding: 10px;
+margin: 20px;
+margin-top: 0;
+width: 48%;
+display: flex;
+justify-content: center;
+}
+.title{
+color: yellow;
+font-size: 2rem;
+justify-content: center;
+align-items: center;
+}
+
+.todo{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+}
+.tasktext{
+  color: black;
+  font-size: 1.5rem;
+  margin: 10px;
+  margin-right: 0;
+  width: 85%;
+  padding-right: 0;
+  height: 35px;
+}
+.button{
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 10px;
+  padding-left: 0;
+  margin: 10px;
+  cursor: pointer;
+  width: 15%;
+  margin-left: 0;
+  height: 38px;
+
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 750px;
+  padding: 10px;
+  margin: 20px;
+  color:yellow;
+  border: 1px solid yellow;
+  border-radius: 5px;
+}
