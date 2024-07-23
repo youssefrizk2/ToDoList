@@ -65,7 +65,7 @@ const Login = () => {
     return (
         <div className={styles.container}>
             <div className={styles.titlediv}>
-                <h1 className={styles.title}>Login</h1>
+                <h1 className={styles.title}>Please Sign-Up/Login</h1>
             </div>
             <div className={styles.auth}>
                 <input
